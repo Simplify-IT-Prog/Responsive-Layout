@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Responsive Forms</title>
+    <link href="./style.css" rel="stylesheet " type="text/css"/>
+</head>
+<body>
+    <form class="form-entry:focus" action="form_submitted.php" method="get">
+        <div class="grid grid-column grid-1 grid-2-400 grid-3-800">
+            <!--Individual Form Elements: Left Column -->
+            <div class="form-element">
+                <label for="fname">FIRST NAME</label>
+                <input class="form-entry" type="text" id="fname" value="John">
+            </div>
+            <div class="form-element">
+                <label for="lname">LAST NAME</label>
+                <input class="form-entry" type="text" id="lname" value="Doe">
+            </div>
+            <div class="form-element">
+                <label for="email">EMAIL ADDRESS</label>
+                <input class="form-entry" type="email" id="email" value="Matt@theironyard.com">
+            </div>
+            <div class="form-element">
+                <label for="country">COUNTRY</label>
+                <select class="form-entry" class="selection" id="country" name="country" value="Choose a country">
+                    <option class="form-entry" value="france">France</option>
+                    <option class="form-entry" value="italy">Italy</option>
+                    <option class="form-entry" value="portugal">Portugal</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="biography">BIOGRAPHY</label>
+                <textarea class="form-entry" id="biography" name="biography">This is how I rock...</textarea>
+            </div>
+        </div>
+
+        <div class="grid grid-column grid-1 grid-2-400 grid-3-800">
+            <!--Individual Form Elements: Middle Column -->
+            <div class="form-element">
+                <label for="tel">PHONE NUMBER</label>
+                <input class="form-entry" type="tel" id="tel" value="+351 999 9999">
+            </div>
+            <div class="form-element">
+                <label for="affiliations">AFFILIATIONS</label>
+                <textarea class="form-entry" id="affiliations" name="affiliations"></textarea>
+            </div>
+            <div class="form-element">
+                <label for="occupation">OCCUPATION</label>
+                <select class="form-entry" class="selection" id="occupation" name="occupation" value="Choose an occupation">
+                    <option class="form-entry" value="jr-programmer">JR Programmer</option>
+                    <option class="form-entry" value="senior-programmer">SR Programmer</option>
+                    <option class="form-entry" value="product-manager">Product Manager</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="cat-name">CAT'S NAME</label>
+                <input class="form-entry" type="text" id="cat-name" value="Kitty">
+            </div>
+            <div class="form-element">
+                <label for="favorite-gadget">FAVORITE GADGET</label>
+                <input class="form-entry" type="text" id="favorite-gadget" value="Annoy-a-tron">
+            </div>
+        </div>
+
+        <div class="grid grid-column grid-1 grid-2-400 grid-3-800">
+            <!--Individual Form Elements: Right Column -->
+            <div class="form-element">
+                <label for="talent">TYPE OF TALENT</label>
+                <select class="form-entry" class="selection" id="talent" name="talent" value="Choose a talent">
+                    <option class="form-entry" value="sports">SPORTS</option>
+                    <option class="form-entry" value="performing-arts">PERFORMING ARTS</option>
+                    <option class="form-entry" value="games">GAMES</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="favorite-drink">FAVORITE DRINK</label>
+                <input class="form-entry" type="text" id="favorite-drink" value="Green Tea">
+            </div>
+            <div class="form-element">
+                <label for="special-power">SPECIAL POWER</label>
+                <input class="form-entry" type="text" id="special-power" value="Anti-gravity">
+            </div>
+            <div class="form-element">
+                <label for="weapon">WEAPON OF CHOICE</label>
+                <input class="form-entry" type="text" id="weapon" value="Lightsaber">
+            </div>
+            <div class="form-element">
+                <label for="comments">COMMENTS</label>
+                <textarea class="form-entry" id="comments" name="comments"></textarea>
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>       
+
+    </div>
+</body>
+</html>
+

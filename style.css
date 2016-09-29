@@ -1,0 +1,58 @@
+﻿*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:steelblue ;
+    text-align: left;
+}
+
+.grid {
+    text-align: justify;
+    font-size: 0;
+}
+.grid-column {
+    display: inline-block;
+    vertical-align: top;
+}
+.grid-1 > * {
+    width:100%;
+}
+.form-element {
+    text-align: left;
+    font-size : small;
+    color:white;
+    padding: 0px 0px 9px 0px;
+}
+.form-entry {
+
+    padding: 1px;
+    display: inline-block;
+    border: 1px solid white;
+    background-color:steelblue;
+    color:white;
+}
+
+.form-entry:focus {
+    color:darkslateblue;
+    border-color:darkslateblue;
+}
+
+.selection:hover {
+    background-color: #fff;
+}
+
+
+@media (min-width: 400px) {
+    .grid-2-400 > * {
+        width: 47%;
+    }
+}
+@media (min-width: 800px) {
+    .grid-3-800 > * {
+        width: 30%;
+    }
+}
+
+
+
